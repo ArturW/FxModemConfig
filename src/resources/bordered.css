@@ -1,0 +1,63 @@
+/** file: gettysburg.css
+* place in same directory as Gettysburg.java and have your build system copy it
+* to the same location as Gettysburg.class */
+.root {
+    -fx-background-color: f4f4f4;
+    /*  #d0d0d0  for objects*/
+}
+
+.label {    
+    /*-fx-font: 14px "Tibetan Machine Uni";*/    
+    -fx-font-weight: bold;    
+    /*-fx-text-fill: red;*/
+    /*-fx-alignment: center-right;*/
+}
+
+.button {
+    /*-fx-padding: 10 10 10 10;*/
+    /*-fx-border-insets: 20 20 20 20;*/
+    
+}
+
+.gridpane {    
+    -fx-grid-lines-visible: false;
+    -fx-vgap: 8;
+}
+
+.check-box {
+    -fx-alignment:  CENTER_RIGHT;
+}
+
+.border-header {
+    -fx-padding: 3;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 2;
+    -fx-border-radius: 8;
+    -fx-border-color: f4f4f4;
+}
+
+.border {
+    -fx-padding: 3;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 2;
+    -fx-border-radius: 8;
+    -fx-border-color:  darkblue;
+}
+
+.border-title-title {
+    -fx-background-color: f4f4f4;
+    -fx-translate-y: -10;
+    -fx-translate-x: 5;
+}
+.border-title-border {
+    -fx-content-display: top;
+    -fx-border-insets: 10 10 10 10;
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 1;
+}
+.border-title-content {
+    -fx-padding: 10 10 10 10;
+}
